@@ -1,7 +1,8 @@
 import "./App.scss";
 import Header from "./components/Header";
-import { Section } from "./components/Section";
+import Section from "./components/Section";
 import SmallSection from "./components/SmallSection";
+import SubSmallSection from "./components/SubSmallSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Section />
       <SmallSection />
+      <SubSmallSection />
     </div>
   );
 }
