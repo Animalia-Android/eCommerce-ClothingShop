@@ -1,11 +1,11 @@
 import "./App.scss";
-import Carousel from "./components/Carousel";
+import { Data } from "./components/Data";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import SmallSection from "./components/SmallSection";
 import SubSmallSection from "./components/SubSmallSection";
-
-import { Data } from "./components/Data";
+import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <SmallSection />
       <SubSmallSection />
       <Carousel slides={Data} />
+      <Footer />
     </div>
   );
 }
