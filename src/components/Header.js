@@ -1,8 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { SearchOutlined, ShoppingBasket } from "@material-ui/icons";
-
-import "../styles/Header.scss";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { SearchOutlined, ShoppingBasket } from '@mui/icons-material';
+import '../styles/Header.scss';
 
 const Header = () => {
   return (

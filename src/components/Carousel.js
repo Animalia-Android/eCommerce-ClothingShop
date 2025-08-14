@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Data } from "./Data";
-import "../styles/Main.scss";
-import "../styles/Carousel.scss";
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
+import React, { useState } from 'react';
+import { Data } from './Data';
+import '../styles/Main.scss';
+import '../styles/Carousel.scss';
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material';
 
 const Carousel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -24,7 +24,7 @@ const Carousel = ({ slides }) => {
 
       {Data.map((slide, index) => {
         return (
-          <div className={index === current ? "carousel active" : "carousel"}>
+          <div className={index === current ? 'carousel active' : 'carousel'}>
             {index === current && (
               <div className={slide.className}>
                 <div className="texts">
